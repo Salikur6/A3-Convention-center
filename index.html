@@ -23,6 +23,7 @@
         }
     </style>
 
+
 </head>
 
 <body>
@@ -124,10 +125,23 @@
         <!-- --------------------------------Our package section ---------------------- -->
 
         <section>
+            <h1 style="margin: 100px 0" class="text-center fw-bold">Our package</h1>
+            <div class="m-2">
+
+                <div class="toast fade show ms-auto d-flex justify-content-between align-items-center border-5 border-top-0 border-bottom-0 border-end-0 border-primary" id="myToast">
+                    <div class="toast-body">
+                        <img src="icons/Vector.svg" alt="">
+                        <strong class="me-auto"><i class="bi-gift-fill"></i> 20% off on next booking</strong>
+                    </div>
+                    <button type="button" class="btn-close text-end" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>
+
+
             <div class="container pb-5">
-                <h1 style="margin: 100px 0" class="text-center fw-bold">Our package</h1>
-                <div class="row g-4 mb-5">
-                    <div class="col-lg-3">
+
+                <div class="row g-5 mb-5">
+                    <div class="col-lg-3 col-12">
 
                         <div class="card border-0 mt-5">
                             <div class="card-body">
@@ -154,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3  col-12">
                         <div class="card  mt-5 border-0">
                             <div class="card-body">
                                 <h2 class="fw-bold">$500</h2>
@@ -179,12 +193,12 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 position-relative">
+                    <div class="col-lg-3  col-12 position-relative">
                         <div class="tips">
-                            <span style="z-index: 1;" class="text-white bg-danger position-absolute top-0 start-100 translate-middle py-1 px-3 rounded-pill">Hot</span>
+                            <span style="z-index: 1; transform: translate(360%,-120%);" class="text-white bg-danger position-absolute top-0 py-1 px-3 rounded-pill">Hot</span>
                         </div>
                         <div style="transform: scale(1.1); background: #3F87F5;
-                        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);" class="card bg-primary border-0 rounded-3  p-3">
+                        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);" class="card bg-primary border-0 rounded-3 p-sm-3">
                             <div class="card-body text-white">
                                 <h2 class="fw-bold">$800</h2>
                                 <h3 class="fw-bold">Wedding plus</h3>
@@ -208,7 +222,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3  col-12">
                         <div class="card  mt-5 border-0">
                             <div class="card-body">
                                 <h2 class="fw-bold">$1200</h2>
@@ -307,9 +321,9 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-12">
                         <div>
-                            <img src="images/people.png" alt="">
+                            <img src="images/people.png" width="100%" alt="">
                         </div>
                     </div>
                 </div>
@@ -320,6 +334,7 @@
         </section>
 
 
+        <!-- -----------------------------newsletter ---------------------------------- -->
 
         <section style="margin:100px 0;">
             <div class="container mb-5 pt-5">
@@ -327,9 +342,9 @@
                 <div class="subscribe-now text-center">
                     <h1 class="text-center fw-bold my-5">Join For News Updates</h1>
                     <p style="color: #8b8ba6;" class="mb-4 lh-lg">Some description of how your newsletter works will be located in this section.<br> Subscribe to get the latest news from us</p>
-                    <div class="subscribe">
-                        <input class="w-25 rounded" type="email" placeholder="Email Address *" name="" id="">
-                        <a class="button text-decoration-none bg-primary text-white py-2 px-3 rounded fw-bold" href="">SUBSCRIBE NOW</a>
+                    <div class="subscribe d-block d-sm-flex justify-content-center align-items-center">
+                        <input class="w-50 rounded d-block d-sm-flex my-2" type="email" placeholder="Email Address *" name="" id="">
+                        <a class="button text-decoration-none bg-primary text-white py-2 px-3 rounded fw-bold d-block d-sm-flex" href="">SUBSCRIBE NOW</a>
                     </div>
                 </div>
             </div>
@@ -341,11 +356,11 @@
     <footer class="bg-black">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-lg-6 text-white">
-                    <p>&#169;2022bike. All rights reserved</p>
+                <div class="col-lg-6 text-white col-12">
+                    <p class="text-center">&#169;2022bike. All rights reserved</p>
 
                 </div>
-                <div class="col-lg-6 text-end">
+                <div class="col-lg-6 text-end col-12 text-center">
                     <h4 style="color: #D9DBE1;" class="fs-5 mb-3">Get the App</h4>
                     <a href="https://apps.apple.com/us/app/pubg-mobile-aftermath/id1330123889" target="_blank"><img src="icons/appstore.png" class="mb-3" alt=""></a>
                     <br>
@@ -355,6 +370,8 @@
         </div>
 
     </footer>
+
+
 
 
 
